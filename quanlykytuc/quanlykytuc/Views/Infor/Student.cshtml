@@ -1,0 +1,120 @@
+﻿@model StudentRoomViewModel
+
+@{
+    ViewData["Title"] = "Students";
+}
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="card mb-4">
+            <h5 class="card-header">Thông tin sinh viên</h5>
+            <!-- Account -->
+            <div class="card-body">
+                <div class="d-flex align-items-start align-items-sm-center gap-4">
+                    <img src="@Model.Student.StudentImage" alt="user-avatar" class="d-block rounded" height="100" width="100" id="uploadedAvatar">
+                    <div class="button-wrapper">
+                        <label for="upload" class="btn btn-primary me-2 mb-4" tabindex="0">
+                            <span class="d-none d-sm-block">Thêm ảnh</span>
+                            <i class="bx bx-upload d-block d-sm-none"></i>
+                            <input type="file" id="upload" class="account-file-input" hidden="" accept="image/png, image/jpeg">
+                        </label>
+                        <button type="button" class="btn btn-outline-secondary account-image-reset mb-4">
+                            <i class="bx bx-reset d-block d-sm-none"></i>
+                            <span class="d-none d-sm-block">Đặt lại</span>
+                        </button>
+
+                        <p class="text-muted mb-0">Cho phép JPG, GIF hoặc PNG. Max kích cỡ trong khoảng 800K</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-0">
+            <div class="card-body">
+                <form id="formAccountSettings" method="POST" onsubmit="return false">
+                    <div class="row">
+                        <div class="mb-3 col-md-6">
+                            <label for="firstName" class="form-label">Họ và tên</label>
+                            <input class="form-control" type="text" id="firstName" name="firstName" value=" @Model.Student.Name" readonly>
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label for="lastName" class="form-label">Mã số sinh viên</label>
+                            <input class="form-control" type="text" name="lastName" id="lastName" value="215748020110371" readonly>
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input class="form-control" type="text" id="email" name="email" value="phamminhkhanh@example.com" readonly>
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label for="organization" class="form-label">Địa chỉ</label>
+                            <input type="text" class="form-control" id="organization" name="organization" value="@Model.Student.Address" readonly>
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label class="form-label" for="phoneNumber">Số điện thoại</label>
+                            <div class="input-group input-group-merge">
+                                <span class="input-group-text">Us(+64)</span>
+                                <input type="text" id="phoneNumber" name="phoneNumber" class="form-control" value="@Model.Student.Phone" readonly>
+                            </div>
+                        </div>
+                        <div class="mb-3 col-md-6">
+                            <label for="state" class="form-label">Ngày đăng ký thuê phòng</label>
+                            <input class="form-control" type="text" id="state" name="state" value="03/05/2024" readonly>
+                        </div>
+
+
+                    </div>
+
+                </form>
+            </div>
+            <h5 class="card-header">Thông tin phòng</h5>
+            <div class="card-body">
+                <form id="formAccountSettings" method="POST" onsubmit="return false">
+                    @if (Model.Room == null)
+                    {
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">Tên phòng</label>
+                                <input class="form-control" type="text" id="firstName" name="firstName" value="Chưa có phòng" readonly>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="lastName" class="form-label">Tiền trọ</label>
+                                <input class="form-control" type="text" name="lastName" id="lastName" value="Chưa có" readonly>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="email" class="form-label">Hạn đóng</label>
+                                <input class="form-control" type="text" id="email" name="email" value="Chưa có" readonly>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="email" class="form-label">Trạng thái thanh toán</label>
+                                <input class="form-control" type="text" id="email" name="email" value="Chưa có" readonly>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="row">
+                            <div class="mb-3 col-md-6">
+                                <label for="firstName" class="form-label">Tên phòng</label>
+                                <input class="form-control" type="text" id="firstName" name="firstName" value="@Model.Room.RoomName" readonly>
+                            </div>
+                           @*  <div class="mb-3 col-md-6">
+                                <label for="lastName" class="form-label">Tiền trọ</label>
+                                <input class="form-control" type="text" name="lastName" id="lastName" value="@Model.Room.Price" readonly>
+                            </div> *@
+                            <div class="mb-3 col-md-6">
+                                <label for="email" class="form-label">Hạn đóng</label>
+                                <input class="form-control" type="text" id="email" name="email" value="20/06/2024" readonly>
+                            </div>
+                            <div class="mb-3 col-md-6">
+                                <label for="email" class="form-label">Trạng thái thanh toán</label>
+                                <input class="form-control" type="text" id="email" name="email" value="Đã thanh toán" readonly>
+                            </div>
+                        </div>
+                    }
+                    
+                    @* <div class="mt-2">
+                        <button type="reset" class="btn btn-outline-secondary">Quay lại</button>
+                    </div> *@
+                </form>
+            </div>
+            <!-- /Account -->
+        </div>
+    </div>
+</div>

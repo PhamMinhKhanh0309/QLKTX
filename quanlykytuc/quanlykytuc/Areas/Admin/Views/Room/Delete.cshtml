@@ -1,0 +1,36 @@
+﻿@model quanlykytuc.Models.Room
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<main id="main" class="main">
+
+    <div class="modal-content">
+        <h5 class="card-header">Xác nhận xóa</h5>
+        <div class="modal-body">
+            <div class="row g-2">
+                <div class="col mb-0">
+                    <label asp-for="RoomID" for="nameLarge" class="form-label">Mã phòng</label>
+                    <input type="text" id="nameLarge" class="form-control" asp-for="RoomID" disabled />
+                </div>
+                <div class="col mb-0">
+                    <label asp-for="RoomName" for="dobLarge" class="form-label">Tên phòng</label>
+                    <input type="text" id="dobLarge" class="form-control" asp-for="RoomName" disabled />
+                </div>
+            </div>
+        </div>
+
+        <form asp-action="Delete">
+            <div class="modal-footer">
+                <input type="hidden" asp-for="RoomID" />
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                    <a href="javascript:history.back()">
+                        Quay Lại
+                    </a>
+
+                </button>
+                <button type="submit" class="btn btn-primary">Xóa Phòng</button>
+            </div>
+        </form>
+
+    </div>
+</main>

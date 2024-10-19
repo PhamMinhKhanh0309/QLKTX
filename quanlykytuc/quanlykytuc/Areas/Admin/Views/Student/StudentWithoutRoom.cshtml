@@ -1,0 +1,126 @@
+﻿@using quanlykytuc.Models;
+@model IList<Student>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<main id="main" class="main">
+    <div class="col-xl">
+        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Quản lý /</span> Sinh viên</h4>
+        <!-- Bordered Table -->
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Sinh viên chưa được xếp phòng</h5>
+                <a asp-area="Admin" asp-controller="Student" asp-action="Create">
+                    <button type="button" class="btn btn-primary">
+                        <span class="tf-icons bx bx-pie-chart-alt"></span>
+                        Thêm mới
+                    </button>
+                </a>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive text-nowrap">
+                    <table class="table table-borderless datatable">
+                        <thead>
+                            <tr>
+                                <th class="col-1 text-center">STT</th>
+                                <th class="col-3 text-center">Họ và tên</th>
+                                <th class="col-3 text-center">Ngày sinh</th>
+                                <th class="col-1 text-center">Điện thoại</th>
+                                <th class="col-1 text-center">Địa chỉ</th>
+                                <th class="col-1 text-center">Tên phòng</th>
+                                <th class="col-1 text-center">Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                var counter = 1; // Biến đếm bắt đầu từ 1
+                            }
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="text-center">@counter</td>
+                                    <td class="text-center">
+                                        @item.Name
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Birth
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Phone
+                                    </td>
+                                    <td class="text-center">
+                                        @item.Address
+                                    </td>
+                                    @if (item.Room != null)
+                                    {
+                                        <td class="text-center">@item.Room.RoomName</td>
+                                    }
+                                    else
+                                    {
+                                        <td class="text-center">Chưa có phòng</td>
+                                    }
+                                   
+                                    <td class="text-center">
+                                        <a asp-area="Admin" asp-controller="Student" asp-action="Edit"
+                                           asp-route-id="@item.StudentID" class="btn btn-primary btn-sm"
+                                           title="Sửa nội dung menu"><i class="bi bi-pencil"></i></a>
+                                        <a asp-area="Admin" asp-controller="Student" asp-action="Delete"
+                                           asp-route-id="@item.StudentID" class="btn btn-danger btn-sm"
+                                           title="Xóa thông tin menu"><i class="bi bi-trash"></i></a>
+                                    </td>
+                                </tr>
+                                counter++;
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="demo-inline-spacing">
+                    <nav aria-label="Page navigation" style="">
+                        <ul class="pagination justify-content-center">
+
+                            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("StudentWithoutRoom", new { page = 1 })">
+                                    <i class="tf-icon bx bx-chevrons-left"></i>
+                                </a>
+                            </li>
+                            <li class="page-item @(ViewBag.CurrentPage == 1 ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("StudentWithoutRoom", new { page = ViewBag.CurrentPage - 1 })">
+                                    <i class="tf-icon bx bx-chevron-left"></i>
+                                </a>
+                            </li>
+
+
+                            @for (int pageIndex = 1; pageIndex <= ViewBag.TotalPages; pageIndex++)
+                            {
+                                <li class="page-item @(ViewBag.CurrentPage == pageIndex ? "active" : "")">
+                                    <a class="page-link" href="/Admin/Student/StudentWithoutRoom?page=@pageIndex">@pageIndex</a>
+                                </li>
+                            }
+
+
+                            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("StudentWithoutRoom", new { page = ViewBag.CurrentPage + 1 })">
+                                    <i class="tf-icon bx bx-chevron-right"></i>
+                                </a>
+                            </li>
+
+
+                            <li class="page-item @(ViewBag.CurrentPage == ViewBag.TotalPages ? "disabled" : "")">
+                                <a class="page-link" href="@Url.Action("StudentWithoutRoom", new { page = ViewBag.TotalPages })">
+                                    <i class="tf-icon bx bx-chevrons-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--/ Basic Pagination -->
+                </div>
+            </div>
+            </div>
+        </div>
+        <!--/ Bordered Table -->
+    </div>
+</main>
+
+

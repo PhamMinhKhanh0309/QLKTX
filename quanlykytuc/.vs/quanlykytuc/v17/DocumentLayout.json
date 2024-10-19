@@ -1,0 +1,1021 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\roomcostprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\roomcostprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\filemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\controllers\\inforcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\controllers\\inforcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\infor\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\infor\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\room\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\room\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\room\\room.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\room\\room.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\room\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\roomdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\roomdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\studentroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\studentroomviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\filesystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\filesystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\roomcostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\roomcostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\notification\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\notification\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\notification\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\student\\studentwithoutroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\student\\studentwithoutroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\viewmodels\\checkoutvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\components\\adminmenucomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\components\\adminmenucomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\room\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\notification\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\notification\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\utilities\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\utilities\\functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\menu\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\component\\menuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\component\\menuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\shared\\_summernote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\shared\\_summernote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\filemanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\filemanager\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\menu\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\models\\summernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\models\\summernote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\models\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\models\\adminmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\menu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\menu\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\shared\\components\\adminmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\shared\\components\\adminmenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\views\\shared\\components\\menuview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\views\\shared\\components\\menuview\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|d:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97848E67-A5D7-452B-8937-E0517815AD9C}|quanlykytuc\\quanlykytuc.csproj|solutionrelative:quanlykytuc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Index.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAgwFUAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T00:16:58.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomCostPrice.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\RoomCostPrice.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\RoomCostPrice.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\RoomCostPrice.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\RoomCostPrice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:20:23.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:30:37.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\Menu.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Menu.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:30:35.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\DataContext.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\DataContext.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\DataContext.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:00:58.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Edit.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Edit.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Edit.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Edit.cshtml",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T00:43:53.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Create.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Create.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Create.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Create.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T02:13:57.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InforController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\InforController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Controllers\\InforController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\InforController.cs",
+              "RelativeToolTip": "quanlykytuc\\Controllers\\InforController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T06:28:14.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileManagerController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\FileManagerController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\FileManagerController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\FileManagerController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\FileManagerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:47:53.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:16:16.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\MenuController.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAA7wEgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T02:17:42.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\Room.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Room.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:49:37.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Student.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Infor\\Student.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Infor\\Student.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Infor\\Student.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Infor\\Student.cshtml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAwwFoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-01T06:29:49.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\UserController.cs",
+              "RelativeToolTip": "quanlykytuc\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwBYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:04:05.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "quanlykytuc\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:37:56.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\Student.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Student.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T03:16:55.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\Notification.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\Notification.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T00:56:45.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Room.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Room\\Room.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Room\\Room.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Room\\Room.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Room\\Room.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T08:06:27.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Room\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Room\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Room\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Room\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T09:28:15.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Notification\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Notification\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Notification\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Notification\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAIBJwBUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-17T03:01:25.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoomDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\RoomDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\RoomDetailsViewModel.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\RoomDetailsViewModel.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\RoomDetailsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T07:23:34.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentRoomViewModel.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\StudentRoomViewModel.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\StudentRoomViewModel.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\StudentRoomViewModel.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\StudentRoomViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T06:53:28.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FileSystemController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\FileSystemController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\FileSystemController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\FileSystemController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\FileSystemController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:48:02.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoomCostController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\RoomCostController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\RoomCostController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\RoomCostController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\RoomCostController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T04:10:35.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\NotificationController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T03:18:35.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T02:14:57.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Notification\\Create.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Notification\\Create.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Notification\\Create.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Notification\\Create.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAIBJwE0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T03:25:27.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Student\\Edit.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Student\\Edit.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Student\\Edit.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Student\\Edit.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAIBJwE0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T07:24:25.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Controllers\\RoomController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T00:14:19.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Notification\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Notification\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Notification\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Notification\\Index.cshtml",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAQwIUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T02:44:45.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StudentWithoutRoom.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Student\\StudentWithoutRoom.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Student\\StudentWithoutRoom.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Student\\StudentWithoutRoom.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Student\\StudentWithoutRoom.cshtml",
+              "ViewState": "AQIAAFQAAAAAAAAAAIBJwEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T03:32:31.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "quanlykytuc\\Controllers\\RoomController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwCIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T08:04:24.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CheckoutVM.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\ViewModels\\CheckoutVM.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\ViewModels\\CheckoutVM.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\ViewModels\\CheckoutVM.cs",
+              "RelativeToolTip": "quanlykytuc\\ViewModels\\CheckoutVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:27:50.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginVM.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\ViewModels\\LoginVM.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\ViewModels\\LoginVM.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\ViewModels\\LoginVM.cs",
+              "RelativeToolTip": "quanlykytuc\\ViewModels\\LoginVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:27:54.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "quanlykytuc\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T08:30:30.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T07:06:38.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAJwAAAAAAAAAAIBJwK4AAABwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T04:18:05.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Student\\Create.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Student\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T04:07:05.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AdminMenuComponent.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Components\\AdminMenuComponent.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Components\\AdminMenuComponent.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Components\\AdminMenuComponent.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Components\\AdminMenuComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:57:46.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Delete.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Delete.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Room\\Delete.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Room\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T02:14:00.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T01:56:10.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Notification\\Edit.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Notification\\Edit.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Notification\\Edit.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Notification\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T06:55:50.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\User\\Login.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\User\\Login.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAIBJwIUAAACnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T03:13:07.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "quanlykytuc\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:01:14.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Program.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Program.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Program.cs",
+              "RelativeToolTip": "quanlykytuc\\Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAIAwwDoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T06:26:47.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Functions.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Utilities\\Functions.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Utilities\\Functions.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Utilities\\Functions.cs",
+              "RelativeToolTip": "quanlykytuc\\Utilities\\Functions.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAA1wAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T01:53:39.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAIBJwCIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T02:18:33.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T02:22:09.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MenuViewComponent.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Component\\MenuViewComponent.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Component\\MenuViewComponent.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Component\\MenuViewComponent.cs",
+              "RelativeToolTip": "quanlykytuc\\Component\\MenuViewComponent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:54:30.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAF0AAAAAAAAAAIBJwGQAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T08:30:46.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T02:21:52.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SummerNote.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Models\\SummerNote.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Models\\SummerNote.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Models\\SummerNote.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Models\\SummerNote.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T03:30:22.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AdminMenu.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Models\\AdminMenu.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Models\\AdminMenu.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Models\\AdminMenu.cs",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Models\\AdminMenu.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:33:00.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_SummerNote.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Shared\\_SummerNote.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Shared\\_SummerNote.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Shared\\_SummerNote.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Shared\\_SummerNote.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T04:10:57.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\FileManager\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\FileManager\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\FileManager\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\FileManager\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-10T03:57:00.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Delete.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Delete.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Menu\\Delete.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Menu\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T02:22:03.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Shared\\Components\\AdminMenu\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-30T02:10:33.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAANQBAAAAAAAAAIBZwJUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-05T03:01:28.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Views\\Shared\\Components\\MenuView\\Default.cshtml",
+              "ViewState": "AQIAAGYAAAAAAAAAAIBZwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T06:43:51.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\User.cs",
+              "RelativeDocumentMoniker": "quanlykytuc\\Models\\User.cs",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Models\\User.cs",
+              "RelativeToolTip": "quanlykytuc\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T03:02:00.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\appsettings.json",
+              "RelativeDocumentMoniker": "quanlykytuc\\appsettings.json",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\appsettings.json",
+              "RelativeToolTip": "quanlykytuc\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-01T06:27:45.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "quanlykytuc\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\quanlykytucnew\\quanlykytuc\\quanlykytuc\\quanlykytuc\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "quanlykytuc\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T08:31:08.473Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

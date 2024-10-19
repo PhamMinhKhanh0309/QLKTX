@@ -1,0 +1,52 @@
+﻿@model quanlykytuc.Models.Room
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<main id="main" class="main">
+    <div class="col-xl">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Thêm mới phòng</h5>
+               
+            </div>
+
+            <div class="card-body">
+                <form method="post">
+                    <div asp-validation-summary="All"></div>
+                    <div class="mb-3">
+                        <label asp-for="RoomName" class="form-label" for="basic-default-fullname">Tên phòng</label>
+                        <input asp-for="RoomName" type="text" class="form-control" id="basic-default-fullname" placeholder="Nhập giá phòng" />
+                        <span asp-validation-for="RoomName" class="text-danger"></span>
+                    </div>
+                    @* <div class="mb-3">
+                        <label asp-for="Price" class="form-label" for="basic-default-fullname">Giá phòng</label>
+                        <input asp-for="Price" type="text" class="form-control" id="basic-default-fullname" placeholder="Nhập giá phòng" />
+                        <span asp-validation-for="Price" class="text-danger"></span>
+                    </div> *@
+
+                    <div class="mb-3">
+                        <label asp-for="Quantity" class="form-label" for="basic-default-fullname">Số người đang ở</label>
+                        <input asp-for="Quantity" type="text" class="form-control" id="basic-default-fullname" placeholder="Nhập số người ở" />
+                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Max" class="form-label" for="basic-default-fullname">Số người tối đa</label>
+                        <input asp-for="Max" type="text" class="form-control" id="basic-default-fullname" placeholder="Nhập số người tối đa" />
+                        <span asp-validation-for="Max" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Description" class="form-label" for="basic-default-company">Mô tả</label>
+                        <input asp-for="Description" type="text" class="form-control" id="basic-default-company" placeholder="Nhập mô tả" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Lưu</button>
+                    <a asp-controller="Room" asp-action="Index">  
+                        <button type="button" class="btn btn-primary">Quay lại</button>
+                    </a>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
