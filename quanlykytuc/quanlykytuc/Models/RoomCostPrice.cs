@@ -16,5 +16,6 @@ namespace quanlykytuc.Models
 		public decimal WaterCost { get; set; }
 		public decimal OtherCost { get; set; }
 		public decimal TotalCost { get; set; }
-	}
+        public virtual Room? Room { get; set; } // Navigation property to Room
+    }
 }
