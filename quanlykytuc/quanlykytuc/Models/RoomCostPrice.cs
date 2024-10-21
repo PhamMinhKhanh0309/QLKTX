@@ -11,10 +11,10 @@ namespace quanlykytuc.Models
 		public int RoomID { get; set; }
 		public int Month { get; set; }
 		public int Year { get; set; }
-		public int RoomCost { get; set; }
-		public int ElectricityCost { get; set; }
-		public int WaterCost { get; set; }
-		public int OtherCost { get; set; }
-		public int TotalCost { get; set; }
+		public decimal RoomCost { get; set; }
+		public decimal ElectricityCost { get; set; }
+		public decimal WaterCost { get; set; }
+		public decimal OtherCost { get; set; }
+		public decimal TotalCost { get; set; }
 	}
 }

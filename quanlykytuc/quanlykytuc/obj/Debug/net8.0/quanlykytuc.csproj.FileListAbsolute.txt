@@ -1077,3 +1077,4 @@ D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\obj\Debug\net8.0\ref\quanl
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\elFinder.NetCore.dll
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\obj\Debug\net8.0\quanlykytuc.MvcApplicationPartsAssemblyInfo.cs
+D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\obj\Debug\net8.0\quanlykytuc.sourcelink.json
