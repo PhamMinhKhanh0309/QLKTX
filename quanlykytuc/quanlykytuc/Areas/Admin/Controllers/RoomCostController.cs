@@ -29,6 +29,7 @@ namespace quanlykytuc.Areas.Admin.Controllers
             ViewBag.TotalPages = (int)Math.Ceiling(totalCost / (double)pageSize);
             return View(CostRoom);
         }
+        // thêm mới nha
         public IActionResult Create()
         {
             var RoomList = (from m in _context.Rooms
