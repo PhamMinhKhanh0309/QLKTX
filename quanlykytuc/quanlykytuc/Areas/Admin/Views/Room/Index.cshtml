@@ -32,6 +32,9 @@
 						<tbody>
 							@{
 								var count = 1;
+								int currentPage = ViewBag.CurrentPage;
+								int pageSize = 3;
+								int startIndex = (currentPage - 1) * pageSize;
 							}
 							@foreach (var item in Model)
 							{

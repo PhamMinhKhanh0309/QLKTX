@@ -69,8 +69,12 @@ namespace quanlykytuc.Controllers
                                 return Redirect(ReturnUrl);
                             }
                             else
+                            if(khachHang.Role == 2)
                             {
                                 return RedirectToAction("Student", "Infor");
+                            }else
+                            {
+                                return RedirectToAction("Index", "Home", new { area = "Admin" }); // Chuyển đến trang chính của Admin
                             }
                         }
                     }

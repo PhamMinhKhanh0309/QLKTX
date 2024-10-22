@@ -13,7 +13,7 @@ namespace quanlykytuc.Areas.Admin.Controllers
         }
         public IActionResult Index(int page = 1)
         {
-			int pageSize = 3;
+			int pageSize = 5;
 			var RoomQuery = _context.Rooms.AsQueryable();
 			int totalRoom = RoomQuery.Count();
 			var room = _context.Rooms.OrderBy(r => r.RoomID)
