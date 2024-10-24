@@ -15,6 +15,7 @@ namespace quanlykytuc.Controllers
         {
             _context = context;
         }
+       
         public IActionResult Login(string? ReturnUrl)
         {
             ViewBag.ReturnUrl = ReturnUrl;
@@ -71,7 +72,7 @@ namespace quanlykytuc.Controllers
                             else
                             if(khachHang.Role == 2)
                             {
-                                return RedirectToAction("Student", "Infor");
+                                return RedirectToAction("HomeIndex", "Home");
                             }else
                             {
                                 return RedirectToAction("Index", "Home", new { area = "Admin" }); // Chuyển đến trang chính của Admin
@@ -80,7 +81,7 @@ namespace quanlykytuc.Controllers
                     }
                 }
             }
-            return View();
+            return RedirectToAction("Index", "Home");
         }
         public async Task<IActionResult> Logout()
         {

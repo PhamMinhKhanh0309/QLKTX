@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Thông báo";
+}
+
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="alert alert-info">
+            <h4>@ViewBag.Message</h4>
+            <p>Phòng hiện tại của bạn: <strong>@ViewBag.RoomName</strong></p>
+        </div>
+
+        <!-- Thêm nút quay lại hoặc điều hướng khác -->
+        <a asp-action="HomeIndex" asp-controller="Home" class="btn btn-primary">Quay lại trang chủ</a>
+    </div>
+</div>

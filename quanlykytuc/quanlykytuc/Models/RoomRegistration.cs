@@ -18,7 +18,8 @@ namespace quanlykytuc.Models
 
         public DateTime EndDate { get; set; }
         public int Status { get; set; }
-
+        public virtual Student? Student { get; set; }  // Navigation property
+        public virtual Room? Room { get; set; }  // Navigation property
 
     }
 }

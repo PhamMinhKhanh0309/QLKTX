@@ -1,0 +1,67 @@
+﻿<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <!-- Tiêu đề trang -->
+        <h4 class="fw-bold py-3 mb-4">
+            <span class="text-muted fw-light">Yêu cầu /</span> Đăng ký phòng
+        </h4>
+
+        <!-- Card bao quanh nội dung chính -->
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0">Đăng ký phòng ký túc xá</h2>
+            </div>
+            <div class="card-body">
+                <!-- Hiển thị thông báo lỗi nếu có -->
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                            {
+                                <li>@error.ErrorMessage</li>
+                            }
+                        </ul>
+                    </div>
+                }
+
+                <!-- Form đăng ký -->
+                <form asp-action="RegisterRoom" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <!-- Chọn phòng -->
+                    <div class="form-group mb-3">
+                        <label for="RoomID" class="form-label">Chọn phòng</label>
+                        <select id="RoomID" name="RoomID" class="form-select">
+                            @foreach (var room in ViewBag.Rooms)
+                            {
+                                <option value="@room.RoomID">
+                                    @room.RoomName (Số lượng người tối đa: @room.Max)
+                                </option>
+                            }
+                            
+                        </select>
+                    </div>
+
+                    <!-- Ngày bắt đầu -->
+                    <div class="form-group mb-3">
+                        <label for="StartDate" class="form-label">Ngày bắt đầu</label>
+                        <input type="date" id="StartDate" name="StartDate" class="form-control"
+                               value="@Model?.StartDate?.ToString("yyyy-MM-dd") ?? DateTime.Now.ToString(" yyyy-MM-dd")" required />
+                    </div>
+
+                    <!-- Ngày kết thúc -->
+                    <div class="form-group mb-3">
+                        <label for="EndDate" class="form-label">Ngày kết thúc</label>
+                        <input type="date" id="EndDate" name="EndDate" class="form-control"
+                               value="@Model?.EndDate?.ToString("yyyy-MM-dd") ?? DateTime.Now.ToString(" yyyy-MM-dd")" required />
+                    </div>
+
+                    <!-- Nút đăng ký -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">Đăng ký</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿
+
+<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <!-- Tiêu đề -->
+        <h4 class="fw-bold py-3 mb-4">
+            <span class="text-muted fw-light">Yêu cầu /</span> Đăng ký phòng
+        </h4>
+
+        <!-- Card thông báo -->
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-success text-white">
+                <h2 class="mb-0">Đăng ký thành công</h2>
+            </div>
+            <div class="card-body text-center">
+                <p class="lead">Bạn đã đăng ký phòng thành công!</p>
+                <p>Thông tin phòng của bạn sẽ được cập nhật trong hệ thống. Vui lòng kiểm tra email của bạn để biết thêm chi tiết.</p>
+
+                <!-- Hiển thị thông tin phòng đã đăng ký (nếu cần) -->
+                @* <div class="alert alert-info mt-4">
+                    <strong>Phòng:</strong> @Model.RoomName <br />
+                    <strong>Thời gian:</strong> từ @Model.StartDate.ToString("dd/MM/yyyy") đến @Model.EndDate.ToString("dd/MM/yyyy")
+                </div> *@
+
+                <!-- Nút quay lại -->
+                <a href="@Url.Action("HomeIndex", "Home")" class="btn btn-primary mt-3">Quay lại trang chủ</a>
+            </div>
+        </div>
+    </div>
+</div>

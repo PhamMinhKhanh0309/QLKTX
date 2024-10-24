@@ -15,6 +15,8 @@ namespace quanlykytuc.Models
         public DbSet<Room> Rooms { get; set; }
 		public DbSet<Notification> Notifications {  get; set; } 
 		public DbSet<RoomCostPrice> roomCostPrices { get; set; }
+        public DbSet<RoomRegistration> RoomRegistrations { get; set; }
+        
 
     }
 

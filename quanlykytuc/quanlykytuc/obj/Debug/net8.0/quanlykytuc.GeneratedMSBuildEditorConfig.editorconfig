@@ -74,6 +74,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9vbUNvc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Areas/Admin/Views/RoomRegistration/ApproveRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9vbVJlZ2lzdHJhdGlvblxBcHByb3ZlUm9vbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Areas/Admin/Views/Room/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9vbVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -126,6 +130,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Views/Home/HomeIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -144,6 +152,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Views/RoomCost/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbUNvc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Views/RoomRegistration/AlreadyRegistered.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVJlZ2lzdHJhdGlvblxBbHJlYWR5UmVnaXN0ZXJlZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Views/RoomRegistration/RegisterRoom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVJlZ2lzdHJhdGlvblxSZWdpc3RlclJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Views/RoomRegistration/RegistrationConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVJlZ2lzdHJhdGlvblxSZWdpc3RyYXRpb25Db25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/quanlykytucnew/quanlykytuc/quanlykytuc/quanlykytuc/Views/Room/Index.cshtml]

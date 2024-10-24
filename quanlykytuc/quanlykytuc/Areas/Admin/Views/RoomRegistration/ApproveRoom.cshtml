@@ -1,0 +1,112 @@
+﻿@model IEnumerable<quanlykytuc.Models.RoomRegistration>
+
+<main id="main" class="main">
+    <div class="container">
+        <h4 class="fw-bold py-3 mb-4">
+            <span class="text-muted fw-light">Quản lý /</span> Duyệt đặt phòng
+        </h4>
+
+        <!-- Card hiển thị danh sách đăng ký phòng -->
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Danh sách yêu cầu đăng ký phòng</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive text-nowrap">
+                    <table class="table table-borderless datatable">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col">Tên sinh viên</th>
+                                <th scope="col">Tên phòng</th>
+                                <th scope="col">Ngày đăng ký</th>
+                                <th scope="col" class="text-center">Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody id="registrationList">
+                            @foreach (var registration in Model)
+                            {
+                                <tr id="row-@registration.RegistrationID">
+                                    <td>@registration.Student.Name</td>
+                                    <td>@registration.Room.RoomName</td>
+                                    <td>@registration.RegistrationDate.ToString("dd/MM/yyyy")</td>
+                                    <td class="text-center">
+                                        <button class="btn btn-sm btn-success me-2" onclick="approveRoom(@registration.RegistrationID)">
+                                            <i class="fas fa-check-circle"></i> Duyệt
+                                        </button>
+                                        <button class="btn btn-sm btn-danger" onclick="rejectRoom(@registration.RegistrationID)">
+                                            <i class="fas fa-times-circle"></i> Từ chối
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Script xử lý Ajax -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    function approveRoom(registrationId) {
+        if (confirm("Bạn có chắc chắn muốn duyệt đăng ký phòng này?")) {
+            $.ajax({
+                url: '/admin/RoomRegistration/ApproveRoom',
+                type: 'POST',
+                data: { registrationId: registrationId },
+                success: function (response) {
+                    if (response.success) {
+                        // Thông báo thành công và cập nhật lại giao diện
+                        showAlert('success', response.message);
+                        $('#row-' + registrationId).remove();  // Xóa hàng đã duyệt khỏi bảng
+                    } else {
+                        showAlert('danger', response.message);  // Thông báo lỗi
+                    }
+                },
+                error: function () {
+                    showAlert('danger', 'Đã xảy ra lỗi trong quá trình xử lý.');
+                }
+            });
+        }
+    }
+
+    function rejectRoom(registrationId) {
+        if (confirm("Bạn có chắc chắn muốn từ chối đăng ký phòng này?")) {
+            $.ajax({
+                url: '/admin/RoomRegistration/RejectRoom',
+                type: 'POST',
+                data: { registrationId: registrationId },
+                success: function (response) {
+                    if (response.success) {
+                        showAlert('success', response.message);
+                        $('#row-' + registrationId).remove();  // Xóa hàng đã từ chối khỏi bảng
+                    } else {
+                        showAlert('danger', response.message);
+                    }
+                },
+                error: function () {
+                    showAlert('danger', 'Đã xảy ra lỗi trong quá trình xử lý.');
+                }
+            });
+        }
+    }
+
+    function showAlert(type, message) {
+        // Tạo một div thông báo đẹp mắt
+        var alertHtml = `
+                <div class="alert alert-` + type + ` alert-dismissible fade show" role="alert">
+                    ` + message + `
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>`;
+
+        // Thêm vào đầu trang
+        $('body').prepend(alertHtml);
+
+        // Tự động ẩn sau 5 giây
+        setTimeout(function () {
+            $('.alert').alert('close');
+        }, 5000);
+    }
+</script>

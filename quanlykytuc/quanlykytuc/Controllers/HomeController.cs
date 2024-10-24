@@ -21,6 +21,10 @@ namespace quanlykytuc.Controllers
             return View();
         }
 
+        public IActionResult HomeIndex()
+        {
+           return View();
+        }
         public IActionResult Privacy()
         {
             return View();
