@@ -4,14 +4,11 @@
 <div class="content-wrapper">
     <div class="container-xxl flex-grow-1 container-p-y">
         <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Thông tin /</span> Chi phí</h4>
-        
         <div class="card shadow-sm">
             <div class="card-header" style="background-color: #007bff; color: #f8f9fa;">
                 <h2><span class="badge bg-dark">Chi phí @Model.Month/@Model.Year</span></h2>
                 <h3><span class="badge bg-info">Phòng @Model.RoomName</span></h3>
             </div>
-
-            
             <div class="card-body">
                 <!-- Check if there's any cost information -->
                 @if (Model.TotalCost > 0)

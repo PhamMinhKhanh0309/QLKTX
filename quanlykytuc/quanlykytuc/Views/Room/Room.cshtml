@@ -52,16 +52,21 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                @{
+                                    var counter = 1;
+                                }
+                                @foreach (var item in Model.Students)
+                                {
                                 <tr>
-                                    @foreach (var item in Model.Students)
-                                    {
+                                    
                                         <td class="text-center">
-                                            @item.StudentID
+                                            @counter
                                         </td>
                                         <td class="text-center">@item.Name</td>
                                         <td class="text-center">@item.Birth</td>
                                         <td class="text-center">@item.Phone</td>
                                         <td class="text-center">@item.Address</td>
+                                        
                                         @* <td>
                                     <i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Angular Project</strong>
                                     </td>
@@ -91,15 +96,17 @@
                                     </div>
                                     </div>
                                     </td> *@
-                                    }
-
+                                       
+                                    
+                                   
                                 </tr>
-
+                                    counter++;
+                                    }
                             </tbody>
                         </table>
                     </div>
                 </div>
-            </div>tr
+            </div>
         </div>
     </div>
 </div>
