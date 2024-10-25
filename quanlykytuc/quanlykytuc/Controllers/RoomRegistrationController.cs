@@ -71,7 +71,7 @@ namespace quanlykytuc.Controllers
 
                 if (existingRegistration != null)
                 {
-                    ModelState.AddModelError("", "You have already registered for a room.");
+                    ModelState.AddModelError("", "Bạn đã đăng ký phòng rồi.");
                     ViewBag.Rooms = _context.Rooms.ToList(); // Đảm bảo danh sách phòng vẫn được hiển thị nếu có lỗi
                     return View(model);
                 }
@@ -79,6 +79,9 @@ namespace quanlykytuc.Controllers
                 // Kiểm tra xem phòng có còn trống không
                 var room = _context.Rooms.FirstOrDefault(r => r.RoomID == model.RoomID);
 
+                //Lấy StudentID dựa trên  Id của user
+                var student = _context.Students
+                .Where(s => s.UserID == studentId).FirstOrDefault();
                 
 
                 // Kiểm tra số lượng sinh viên hiện tại trong phòng
@@ -95,7 +98,7 @@ namespace quanlykytuc.Controllers
                 // Nếu phòng còn trống, thêm đăng ký mới vào cơ sở dữ liệu
                 var newRegistration = new RoomRegistration
                 {
-                    StudentID = studentId,
+                    StudentID = student.StudentID,
                     RoomID = model.RoomID,
                     RegistrationDate = DateTime.Now,
                     StartDate = model.StartDate,

@@ -59,7 +59,7 @@ namespace quanlykytuc.Areas.Admin.Controllers
                 return Json(new { success = true, message = "Phòng đã được phê duyệt và giao cho sinh viên thành công." });
             }
 
-            return Json(new { success = false, message = "Failed to approve room." });
+            return Json(new { success = false, message = "Lỗi duyệt phòng không thành công" });
         }
     }
 }
