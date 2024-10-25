@@ -1078,3 +1078,7 @@ D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\elFinder.
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\SixLabors.ImageSharp.dll
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\obj\Debug\net8.0\quanlykytuc.MvcApplicationPartsAssemblyInfo.cs
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\obj\Debug\net8.0\quanlykytuc.sourcelink.json
+D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\MailKit.dll
+D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\MimeKit.dll
+D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\System.Formats.Asn1.dll

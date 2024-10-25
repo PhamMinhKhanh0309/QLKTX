@@ -103,7 +103,10 @@ namespace quanlykytuc.Controllers
                     RegistrationDate = DateTime.Now,
                     StartDate = model.StartDate,
                     EndDate = model.EndDate,
-                    Status = 0 // 0 là trạng thái đang đăng ký
+                    Status = 0, // 0 là trạng thái đang đăng ký
+                    Email = model.Email,
+                    Phone = model.Phone
+                    
                 };
 
                 _context.RoomRegistrations.Add(newRegistration);
