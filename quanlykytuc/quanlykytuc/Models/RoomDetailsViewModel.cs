@@ -3,6 +3,6 @@
     public class RoomDetailsViewModel
     {
         public Room Room { get; set; }
-        public List<Student> Students { get; set; }
+        public List<Student>? Students { get; set; }
     }
 }

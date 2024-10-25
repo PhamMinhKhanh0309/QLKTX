@@ -2,7 +2,7 @@
 {
     public class StudentRoomViewModel
     {
-        public Student Student { get; set; }
-        public Room Room { get; set; }
+        public Student? Student { get; set; }
+        public Room? Room { get; set; }
     }
 }

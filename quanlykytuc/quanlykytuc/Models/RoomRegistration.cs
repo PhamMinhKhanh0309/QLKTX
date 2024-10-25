@@ -20,8 +20,8 @@ namespace quanlykytuc.Models
         public int Status { get; set; }
         public string? Phone {  get; set; }
         public string? Email { get; set; }
-        public virtual Student? Student { get; set; }  // Navigation property
-        public virtual Room? Room { get; set; }  // Navigation property
+        public virtual Student? Student { get; set; }  // Thuộc tính điều hướng
+        public virtual Room? Room { get; set; }  // Thuộc tính điều hướng
 
     }
 }

@@ -11,7 +11,7 @@ namespace quanlykytuc.Models
         public int Quantity { get; set; }
         public int Max { get; set; }
         public string? Description { get; set; }
-        public ICollection<Student> Students { get; set; } // Navigation property for students in the room
-        public ICollection<RoomCostPrice> RoomCostPrices { get; set; } // Navigation property for students in the room
+        public ICollection<Student>? Students { get; set; } // Navigation property for students in the room
+        public ICollection<RoomCostPrice>? RoomCostPrices { get; set; } // Navigation property for students in the room
     }   
 }

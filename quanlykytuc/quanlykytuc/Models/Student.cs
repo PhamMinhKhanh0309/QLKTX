@@ -14,6 +14,6 @@ namespace quanlykytuc.Models
         public int Priority { get; set; }
         public int UserID { get; set; }
         public string? StudentImage { get; set; }
-        public virtual Room? Room { get; set; } // Navigation property to Room
+        public virtual Room? Room { get; set; } //Thuộc tính điều hướng đến Phòng
     }
 }

@@ -2,7 +2,7 @@
 {
 	public class RoomCostViewModel
 	{
-		public string RoomName { get; set; }
+		public string? RoomName { get; set; }
 		public int Month { get; set; }
 		public int Year { get; set; }
 		public decimal RoomCost { get; set; }
