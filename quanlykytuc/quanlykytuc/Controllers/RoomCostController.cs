@@ -22,7 +22,7 @@ namespace quanlykytuc.Controllers
 
             // Lấy thông tin phòng của sinh viên dựa vào StudentID
             var room = _context.Rooms
-                .Where(r => r.Students.Any(s => s.StudentID == studentId))
+                .Where(r => r.Students.Any(s => s.UserID == studentId))
                 .FirstOrDefault();
 
             if (room == null)
