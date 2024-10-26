@@ -1,0 +1,88 @@
+﻿@model IEnumerable<quanlykytuc.Models.RoomRegistration>
+
+<main id="main" class="main">
+    <div class="container">
+        <h4 class="fw-bold py-3 mb-4">
+            <span class="text-muted fw-light">Quản lý /</span> Đơn đặt phòng đã duyệt
+        </h4>
+
+        <!-- Card hiển thị danh sách đăng ký phòng -->
+        <div class="card shadow-sm border-0 rounded-3">
+            <div class="card-header bg-gradient-primary text-blue">
+                <h5 class="mb-0">Danh sách yêu cầu đã được đăng ký phòng</h5>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive text-nowrap">
+                    <table class="table table-striped table-hover">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>STT</th>
+                                <th>Tên sinh viên</th>
+                                <th>Tên phòng</th>
+                                <th>Số điện thoại</th>
+                                <th>Email</th>
+                                <th>Ngày đăng ký</th>                                
+                                <th class="text-center">Chức năng</th>
+                            </tr>
+                        </thead>
+                        <tbody id="registrationList">
+                            @{
+                                var counter = 1;
+                            }
+                            @foreach (var registration in Model)
+                            {
+                                <tr id="row-@registration.RegistrationID">
+                                    <td>@counter</td>
+                                    <td>@registration.Student.Name</td>
+                                    <td>@registration.Room.RoomName</td>
+                                    <td>@registration.Phone</td>
+                                    <td>@registration.Email</td>
+                                    <td>@registration.RegistrationDate.ToString("dd/MM/yyyy")</td>
+                                    <td class="text-center">
+                                        <button class="btn btn-success btn-sm me-2" onclick="approveRoom(@registration.RegistrationID)">
+                                            <i class="bi bi-check-circle"></i> Thanh lý 
+                                        </button>
+                                    </td>
+                                </tr>
+                                counter++;
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- Include Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+<!-- Script xử lý Ajax -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    function approveRoom(registrationId) {
+        if (confirm("Bạn có muốn thanh lý hợp đồng không?")) {
+            $.ajax({
+                url: '/admin/RoomRegistration/Liquidation',
+                type: 'POST',
+                data: { registrationId: registrationId },
+                success: function (response) {
+                    if (response.success) {
+                        // Thông báo thành công và cập nhật lại giao diện
+                        alert(response.message);
+                        $('#row-' + registrationId).remove();  // Xóa hàng đã duyệt khỏi bảng
+                    } else {
+                        alert(response.message);  // Thông báo lỗi
+                    }
+                },
+                error: function () {
+                    alert('An error occurred while processing your request.');
+                }
+            });
+        } else {
+            // Người dùng đã hủy yêu cầu duyệt
+            alert('Duyệt không thành công.');
+        }
+    }
+</script>
