@@ -17,7 +17,7 @@ namespace quanlykytuc.Areas.Admin.Controllers
         public IActionResult StudentWithRoom(int page = 1)
         {
             // Lọc sinh viên đã có phòng
-            int pageSize = 3;
+            int pageSize = 5;
             var StudentQuery = _context.Students.AsQueryable();
             int totalStudent = StudentQuery.Count();
             var studentsWithRoom = _context.Students
@@ -33,7 +33,7 @@ namespace quanlykytuc.Areas.Admin.Controllers
         }
         public IActionResult StudentWithoutRoom(int page = 1)
         {
-            int pageSize = 3;
+            int pageSize = 5;
             var StudentQuery = _context.Students.AsQueryable();
             int totalStudent = StudentQuery.Count();
             // Lọc sinh viên chưa có phòng

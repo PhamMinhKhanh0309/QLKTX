@@ -16,7 +16,7 @@ namespace quanlykytuc.Areas.Admin.Controllers
 		public IActionResult Index(int page = 1)
 		{
             // Lọc sinh viên đã có phòng
-            int pageSize = 3;
+            int pageSize = 5;
             var CostQuery = _context.roomCostPrices.AsQueryable();
             int totalCost = CostQuery.Count();
             var CostRoom = _context.roomCostPrices

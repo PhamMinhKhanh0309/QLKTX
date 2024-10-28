@@ -16,7 +16,7 @@ namespace quanlykytuc.Areas.Admin.Controllers
         }
         public IActionResult Index(int page = 1)
         {
-            int pageSize = 3;
+            int pageSize = 5;
             var NotificationQuery = _context.Notifications.AsQueryable();
             int totalNotification = NotificationQuery.Count();
 			var mnList = _context.Notifications.OrderByDescending(m => m.Created_At)
