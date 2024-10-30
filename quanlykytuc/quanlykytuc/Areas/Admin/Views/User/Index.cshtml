@@ -1,0 +1,61 @@
+﻿@using quanlykytuc.Models;
+@model IList<User>
+@{
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<main id="main" class="main">
+	<div class="col-xl">
+		<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Quản lý /</span> tài khoản</h4>
+		<div class="card">
+			<div class="card-header d-flex justify-content-between align-items-center">
+				<h5 class="mb-0">Quản lý tài khoản</h5>
+				<a asp-area="Admin" asp-controller="User" asp-action="Create">
+					<button type="button" class="btn btn-primary">
+						<span class="tf-icons bx bx-pie-chart-alt"></span>
+						Thêm mới
+					</button>
+				</a>
+			</div>
+			<div class="card-body">
+				<div class="table-responsive text-nowrap">
+					<table class="table table-borderless datatable">
+						<thead>
+							<tr>
+								<th class="col-1 text-center">STT</th>
+								<th class="col-3 text-center">Tên tài khoản</th>
+								<th class="col-3 text-center">Quyền</th>
+								<th class="col-3 text-center">Trạng Thái</th>
+								<th class="col-2 text-center">Chức năng</th>
+							</tr>
+						</thead>
+						<tbody>
+							@foreach (var item in Model)
+							{
+								<tr>
+									<td class="text-center" scope="row">@item.UserID</td>
+
+									<td class="text-center">@item.UserName</td>
+							
+									<td class="text-center">@item.Role</td>
+
+									<td class="text-center">@item.IsActive</td>
+									<td class="text-center">
+										<a asp-area="Admin" asp-controller="User" asp-action="Edit"
+										   asp-route-id="@item.UserID" class="btn btn-primary btn-sm"
+										   title="Sửa tài khoản"><i class="bi bi-pencil"></i></a>
+										<a asp-area="Admin" asp-controller="User" asp-action="Delete"
+										   asp-route-id="@item.UserID" class="btn btn-danger btn-sm"
+										   title="Xóa tài khoản"><i class="bi bi-trash"></i></a>
+									</td>
+								</tr>
+							}
+						</tbody>
+					</table>
+				</div>
+				
+				</div>
+			</div>
+
+		</div>
+</main>
+

@@ -13,6 +13,7 @@ namespace quanlykytuc.Models
         public int? RoomID { get; set; }
         public int Priority { get; set; }
         public int UserID { get; set; }
+        public string? Email { get; set; }
         public string? StudentImage { get; set; }
         public virtual Room? Room { get; set; } //Thuộc tính điều hướng đến Phòng
     }

@@ -1082,3 +1082,4 @@ D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\BouncyCas
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\MailKit.dll
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\MimeKit.dll
 D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\quanlykytucnew\quanlykytuc\quanlykytuc\quanlykytuc\bin\Debug\net8.0\AutoMapper.dll

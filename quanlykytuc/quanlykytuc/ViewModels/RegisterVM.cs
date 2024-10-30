@@ -5,7 +5,7 @@ namespace quanlykytuc.ViewModels
     public class RegisterVM
     {
         [Key]
-        public int AccountID { get; set; }
+        public int UserID { get; set; }
         [Display(Name = "Tên đăng nhập")]
         [Required(ErrorMessage = "*")]
         [MaxLength(20, ErrorMessage = "Tối đa 20 kí tự")]
@@ -24,9 +24,8 @@ namespace quanlykytuc.ViewModels
         [Display(Name = "Địa chỉ")]
         [MaxLength(60, ErrorMessage = "Tối đa 60 kí tự")]
         public string Address { get; set; }
-        public int RoleID { get; set; }
 
-        public DateTime? LastLogin { get; set; }
+        public int Role { get; set; }
         [Display(Name = "Ngày sinh")]
         [DataType(DataType.Date)]
         public DateTime Birthday { get; set; }

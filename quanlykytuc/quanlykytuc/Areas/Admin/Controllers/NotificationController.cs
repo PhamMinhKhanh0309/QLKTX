@@ -84,5 +84,33 @@ namespace quanlykytuc.Areas.Admin.Controllers
 			}
 			return View(nt);
 		}
-	}
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var mn = _context.Notifications.Find(id);
+            if (mn == null)
+            {
+                return NotFound();
+            }
+
+            return View(mn);
+        }
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var dele = _context.Notifications.Find(id);
+            if (dele == null)
+            {
+                return NotFound();
+            }
+
+            _context.Notifications.Remove(dele);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+    }
 }

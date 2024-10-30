@@ -1,0 +1,50 @@
+﻿@model quanlykytuc.Models.User
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<<main id="main" class="main">
+    <div class="col-xl">
+        <div class="card mb-4">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Chỉnh sửa tài khoản</h5>
+
+            </div>
+            <form asp-action="Edit" method="post">
+                <input type="text" class="form-control mb-3" asp-for="UserID" type="hidden" />
+                <div asp-validation-summary="All"></div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label asp-for="UserName" class="form-label" for="basic-default-fullname">Tên tài khoản</label>
+                        <input asp-for="UserName" type="text" class="form-control" id="basic-default-fullname" placeholder="Nhập tên tài khoản" />
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <label asp-for="Passwords" class="form-label" for="basic-default-fullname">Mật khẩu</label>
+                        <input asp-for="Passwords" type="password" class="form-control" id="basic-default-fullname" placeholder="Nhập mật khẩu" />
+                        <span asp-validation-for="Passwords" class="text-danger"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Role">Quyền</label>
+                        <select asp-for="Role" class="form-select" id="Role">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-5 mb-5">
+                        <label>
+                            @Html.CheckBox("IsActive", true) Hiển thị
+                        </label>
+                    </div>
+
+                    <a asp-controller="User" asp-action="Index"> <button type="button" class="btn btn-primary">Quay lại</button></a>
+                    <button type="submit" class="btn btn-primary"><i class="menu-icon tf-icons bx bx-dock-top"></i>Lưu</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</main>
