@@ -21,15 +21,26 @@ namespace quanlykytuc.Controllers
             {
                 return Unauthorized("Student ID is invalid.");
             }
-
+            
             // Kiểm tra xem sinh viên đã đăng ký phòng hay chưa
             var existingRegistration = _context.RoomRegistrations
-                .FirstOrDefault(r => r.StudentID == studentId && r.Status == 1); // 1 là trạng thái đăng ký đang hoạt động
-
+                .FirstOrDefault(r => r.Student.UserID == studentId && r.Status == 0); // 0 là trạng thái đăng ký đang hoạt động
             if (existingRegistration != null)
             {
                 // Nếu đã đăng ký phòng, hiển thị thông tin về phòng hiện tại
                 var currentRoom = _context.Rooms.FirstOrDefault(r => r.RoomID == existingRegistration.RoomID);
+
+                ViewBag.RoomName = currentRoom?.RoomName;
+                ViewBag.Message = "Bạn đã đăng ký phòng.";
+                return View("existingRegistration"); // Chuyển sang view hiển thị thông báo
+            }
+            // Kiểm tra xem sinh viên đã đăng ký phòng hay chưa
+            var AlreadyRegistered = _context.RoomRegistrations
+                .FirstOrDefault(r => r.Student.UserID == studentId && r.Status == 1); // 1 là trạng thái đã có phòng
+            if (AlreadyRegistered != null)
+            {
+                // Nếu đã đăng ký phòng, hiển thị thông tin về phòng hiện tại
+                var currentRoom = _context.Rooms.FirstOrDefault(r => r.RoomID == AlreadyRegistered.RoomID);
 
                 ViewBag.RoomName = currentRoom?.RoomName;
                 ViewBag.Message = "Bạn đã có phòng.";
