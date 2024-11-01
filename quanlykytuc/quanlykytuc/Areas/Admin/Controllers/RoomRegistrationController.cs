@@ -3,8 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using quanlykytuc.Models;
 using System.Net.Mail;
 using System.Net;
-using System.Net.Mail;
-using System.Net;
+
 using MimeKit;
 namespace quanlykytuc.Areas.Admin.Controllers
 {
