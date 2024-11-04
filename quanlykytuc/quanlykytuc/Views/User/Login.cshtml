@@ -13,17 +13,6 @@
 }
 <!DOCTYPE html>
 
-<!-- =========================================================
-* Sneat - Bootstrap 5 HTML Admin Template - Pro | v1.0.0
-==============================================================
-
-* Product Page: https://themeselection.com/products/sneat-bootstrap-html-admin-template/
-* Created by: ThemeSelection
-* License: You must have a valid license purchased in order to legally use the theme for your project.
-* Copyright ThemeSelection (https://themeselection.com)
-
-=========================================================
- -->
 <!-- beautify ignore:start -->
 <html lang="en"
       class="light-style customizer-hide"
@@ -66,8 +55,7 @@
     <!-- Helpers -->
     <script src="~/vendor/js/helpers.js"></script>
 
-    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
-    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+     
     <script src="~/js/config.js"></script>
 </head>
 
@@ -124,40 +112,49 @@
                         <h4 class="mb-2">Trang quản lý kí túc xá 🚀</h4>
                         <p class="mb-4">Chào mừng bạn đến với trang</p>
 
-                        <form id="formAuthentication" class="mb-3" asp-action="Login" asp-route-returnurl="@ViewBag.ReturnUrl" >
+                        <form id="formAuthentication" class="mb-3" asp-action="Login" asp-route-returnurl="@ViewBag.ReturnUrl">
                             <div class="mb-3">
-                                <label asp-for="@Model.UserName" class="form-label">Tài Khoản</label>
-                                
-                                <input type="text" class="form-control" asp-for="@Model.UserName" placeholder="Nhập tài khoản" autofocus="">
-                                <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                                <label asp-for="UserName" class="form-label">Tài Khoản</label>
+                                <input type="text" class="form-control" asp-for="UserName" placeholder="Nhập tài khoản" autofocus>
+                                <span asp-validation-for="UserName" class="text-danger"></span>
                             </div>
 
                             <div class="mb-3 form-password-toggle">
-                                <label class="form-label" asp-for="@Model.Passwords">Mật Khẩu</label>
+                                <label class="form-label" asp-for="Passwords">Mật Khẩu</label>
                                 <div class="input-group input-group-merge">
-                                    <input type="password" asp-for="@Model.Passwords" class="form-control" placeholder="············">
-                                    <span asp-validation-for="@Model.Passwords" class="text-danger"></span>
+                                    <input type="password" asp-for="Passwords" class="form-control" id="passwordField" placeholder="············">
+                                    <span asp-validation-for="Passwords" class="text-danger"></span>
                                 </div>
                             </div>
 
                             <div class="mb-3">
                                 <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="terms-conditions" name="terms">
-                                    <label class="form-check-label" for="terms-conditions">
+                                    <input class="form-check-input" type="checkbox" id="showPassword" name="showPassword">
+                                    <label class="form-check-label" for="showPassword">
                                         Hiển thị mật khẩu
-                                        <a href="javascript:void(0);"></a>
                                     </label>
                                 </div>
                             </div>
-                            <button type ="submit" class="btn btn-primary d-grid w-100">Đăng nhập</button>
+
+                            <button type="submit" class="btn btn-primary d-grid w-100">Đăng nhập</button>
                         </form>
 
-                        <p class="text-center">
-                        <span>Bạn chưa có tài khoản?</span>
-                        <a href="Register/User">
-                        <span>Đăng ký ngay</span>
-                        </a>
+                        <p class="text-center"><span>Bạn chưa có tài khoản?</span>
+                            <a href="Register/User">
+                                             <span>Đăng ký ngay</span>
+                             </a>
                         </p>
+
+                        <script>
+                            document.getElementById('showPassword').addEventListener('change', function () {
+                                const passwordField = document.getElementById('passwordField');
+                                if (this.checked) {
+                                    passwordField.type = 'text';
+                                } else {
+                                    passwordField.type = 'password';
+                                }
+                            });
+                        </script>
                     </div>
                 </div>
                 <!-- Register Card -->

@@ -12,7 +12,6 @@ namespace quanlykytuc.Models
 
         public int StudentID { get; set; }
         public int RoomID { get; set; }
-
         public DateTime RegistrationDate { get; set; }
         public DateTime StartDate { get; set; }
 
