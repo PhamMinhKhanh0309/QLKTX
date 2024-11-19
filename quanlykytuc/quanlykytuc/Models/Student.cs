@@ -6,6 +6,7 @@ namespace quanlykytuc.Models
     public class Student
     {
         public int StudentID { get; set; }
+        public int? StudentCode { get; set; }
         public string? Name { get; set; }
         public string? Birth { get; set; }
         public string? Phone { get; set; }

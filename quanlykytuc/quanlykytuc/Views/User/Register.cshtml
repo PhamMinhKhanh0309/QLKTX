@@ -113,6 +113,7 @@
                         <p class="mb-4">Đăng ký tài khoản ký túc xá sinh viên</p>
 
                         <form class="mb-3" asp-action="Register" >
+                           
                             <div class="mb-3">
                                 <label asp-for="UserName" class="form-label">Tên tài khoản</label>
                                 <input asp-for="UserName" type="text"
@@ -123,6 +124,7 @@
                                        autofocus />
                                 <span asp-validation-for="@Model.UserName" class="text-danger"></span>
                             </div>
+
                             <div class="mb-3 form-password-toggle">
                                 <label class="form-label" asp-for="@Model.Passwords">Mật Khẩu</label>
                                 <div class="input-group input-group-merge">
